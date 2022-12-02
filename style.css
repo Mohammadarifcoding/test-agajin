@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@media  screen and (max-width:1028px) {
+   .attack{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding:50px;
+   } 
+   .attack-1{
+    width: 100%;
+    text-align:center;
+    
+   }
+   .attack-1 img{
+    margin: auto;
+    width: 240px;
+    padding: auto;
+   
+
+   }
+   .attack-1 p{
+    width: 300px;
+    margin:auto;
+    
+   }
+   .attack-2{
+    
+    margin-top: 50px;
+    width: 344px;
+   }
+   
+}
+.attack2{
+  
+  
+
+}
+.attack-2{
+   width: 344px;
+}
+@media screen and (max-width:628px) {
+   .attack2{
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+   }
+
+}
